@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include '../header.html' %}
+</head>
+<body>
+    <div class="container-fluid ">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h1 class="masthead-brand">BAT888</h1>
+          <nav class="nav nav-masthead justify-content-end">
+            <h2>I ♥ Baseball</h2>
+          </nav>
+        </div>
+      </header>
+    <div class="row justify-content-center">
+            
+            
+      <main role="main" class="inner cover"  style = 'margin-top: 100px;'>
+          
+          <h1>6. 머신러닝 객체에 ALL STAR데이터 대입하여 득점수 예측</h1><br/> <br/>
+          <h4> ALL STAR TEAM의 지표를 입력해주세요.^_^</h4>
+          <hr/>
+          <form action="/hero/r_5" method="GET">
+      
+          <div class="form-inline" style = "margin-top:100px">
+<!--         
+# R                97.100000
+# H               151.100000
+# 2B               32.300000
+# HR               35.500000
+# RBI             101.000000
+# SF                5.100000
+# OPS               0.965600
+# BB               75.900000
+-->  
+
+            <div class="form-inline">
+                <label style="width:130px">R</label>
+            <input type="text" name="R" style="width:400px; height:50px; margin-bottom:10px" value = "97.100000"/>
+            </div>
+
+            <div class="form-inline">
+                <label style="width:130px">H</label>
+            <input type="text" name="H" style="width:400px; height:50px; margin-bottom:10px" value = "151.100000"/>
+            </div>
+
+            <div class="form-inline">
+                <label style="width:130px">2B</label>
+            <input type="text" name="B2" style="width:400px; height:50px; margin-bottom:10px" value = "32.300000"/>
+            </div>
+
+            <div class="form-inline">
+                <label style="width:130px">HR</label>
+            <input type="text" name="HR" style="width:400px; height:50px; margin-bottom:10px" value = "35.500000"/>
+            </div>
+
+            <div class="form-inline">
+                <label style="width:130px">RBI</label>
+            <input type="text" name="RBI" style="width:400px; height:50px; margin-bottom:10px" value = "101.000000"/>
+            </div>
+
+            <div class="form-inline">
+                <label style="width:130px">SF</label>
+            <input type="text" name="SF" style="width:400px; height:50px; margin-bottom:10px" value = "5.100000"/>
+            </div>
+
+            <div class="form-inline">
+                <label style="width:130px">OPS</label>
+            <input type="text" name="OPS" style="width:400px; height:50px; margin-bottom:10px" value = "0.965600"/>
+            </div>
+
+            <div class="form-inline">
+                <label style="width:130px">BB</label>
+            <input type="text" name="BB" style="width:400px; height:50px; margin-bottom:10px" value = "75.900000"/>
+            </div>
+
+           
+
+
+
+            
+            
+            
+          </div>
+
+          <div class='form-inline' style="margin-bottom:5px;">
+            <label style="width: 100px;"></label>
+            <a href="/hero/r_5_2" style = "width:400px; height:70px; font-size:40px; margin-left:200px; margin-top:100px;" class="btn btn-primary">득점수 예측 GO!</a>
+          </div> 
+
+          </form>
+      </main>
+  </div>   
+</div> 
+
+
+</body>
+</html>
+
+
+
+   
+
+
+
+
+
